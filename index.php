@@ -48,6 +48,14 @@
     <a href="actividades/tutorial2p24.php">Ejercicio taller 2 punto 24 (No tocar Elimina la tabla cursos)</a>
     <br>
     <a href="actividades/tutorial2p25.php">Ejercicio taller 2 punto 25</a>
+    <br>
+    <a href="actividades/tutorial2p26.php">Ejercicio taller 2 punto 26</a>
+    <br>
+    <a href="actividades/tutorial2p27.php">Ejercicio taller 2 punto 27</a>
+    <br>
+    <a href="actividades/tutorial2p28.php">Ejercicio taller 2 punto 28</a>
+    <br>
+    <a href="actividades/tutorial2p29.php">Ejercicio taller 2 punto 29</a>
     
 </body>
 </html>

@@ -15,9 +15,9 @@
     ?>
     <form action="pagina25_2.php" method="post">
         Ingrese el Nuevo nombre del curso:
-        <input type="text" name="nombrenew" value="<?php echo $reg['nombre'] ?>">
+        <input type="text" name="nombrenew" value="<?php echo $reg['nombrecurso'] ?>">
         <br>
-        <input type="hidden" name=nombreviejo value="<?php echo $reg['nombre'] ?>">
+        <input type="hidden" name=nombreviejo value="<?php echo $reg['nombrecurso'] ?>">
         <br><br>
         <input type="submit" value="Modificar">
     </form>
