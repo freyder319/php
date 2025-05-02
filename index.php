@@ -37,6 +37,17 @@
     <br>
     <a href="actividades/tutorial1p18.php">Ejercicio taller 1 punto 18</a>
     <br>
-    <a href="actividades/tutorial1p20.php">Ejercicio taller 1 punto 20</a>
+    <a href="actividades/tutorial2p20.php">Ejercicio taller 2 punto 20</a>
+    <br>
+    <a href="actividades/tutorial2p21.php">Ejercicio taller 2 punto 21</a>
+    <br>
+    <a href="actividades/tutorial2p22.php">Ejercicio taller 2 punto 22</a>
+    <br>
+    <a href="actividades/tutorial2p23.php">Ejercicio taller 2 punto 23</a>
+    <br>
+    <a href="actividades/tutorial2p24.php">Ejercicio taller 2 punto 24 (No tocar Elimina la tabla cursos)</a>
+    <br>
+    <a href="actividades/tutorial2p25.php">Ejercicio taller 2 punto 25</a>
+    
 </body>
 </html>
