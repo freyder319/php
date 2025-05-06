@@ -66,6 +66,10 @@
     <a href="actividades/tutorial2p33.php">Ejercicio taller 2 punto 33</a>
     <br>
     <a href="actividades/tutorial3p34.php">Ejercicio taller 3 punto 34</a>
+    <br>
+    <a href="actividades/tutorial3p35.php">Ejercicio taller 3 punto 35</a>
+    <br>
+    <a href="actividades/tutorial3p37.php">Ejercicio taller 3 punto 37</a>
     
 </body>
 </html>

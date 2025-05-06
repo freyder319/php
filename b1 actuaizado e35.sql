@@ -26,7 +26,11 @@ SET time_zone = "+00:00";
 --
 -- Estructura de tabla para la tabla `alumnos`
 --
-
+--
+-- Volcado de datos para la tabla `alumnos`
+--
+CREATE DATABASE IF NOT EXISTS `b1` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `b1`;
 CREATE TABLE `alumnos` (
   `codigo` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
