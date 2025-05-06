@@ -9,7 +9,10 @@
     <?php 
     $conexion=mysqli_connect("localhost","root","","b1") or
         die("Problemas cona la conexion");
-    $registros=mysqli_query($conexion,"update alumnos set codigocurso")
+    $registros=mysqli_query($conexion,"UPDATE alumnos 
+SET codigocurso = '$_REQUEST[codigocurso]', mail = '$_REQUEST[correonew]', nombre = '$_REQUEST[nombrenew]' where codigo='$_REQUEST[codigo_alumno]';") or
+        die("Problemas en el select:".mysqli_error($conexion));
+    echo "Modificaciones con exito!"
     ?>
 </body>
 </html>

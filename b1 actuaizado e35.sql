@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-05-2025 a las 00:37:43
+-- Tiempo de generación: 06-05-2025 a las 18:27:53
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -39,9 +39,11 @@ CREATE TABLE `alumnos` (
 --
 
 INSERT INTO `alumnos` (`codigo`, `nombre`, `mail`, `codigocurso`) VALUES
-(1, 'cristian', 'cristian@gmail.com', 2),
-(8, 'yan', 'yan@gmail.com', 3),
-(9, 'Brandon', 'brandon@gmail.com', 2);
+(1, 'yan', 'yan@gmail.com', 2),
+(2, 'cristian', 'cristian@gmail.com', 2),
+(3, 'camila', 'camila@gmail.com', 4),
+(4, 'jhon', 'jhon@gmail.com', 3),
+(5, 'claudia', 'claudia@gmail.com', 2);
 
 -- --------------------------------------------------------
 
@@ -59,9 +61,15 @@ CREATE TABLE `cursos` (
 --
 
 INSERT INTO `cursos` (`codigo`, `nombrecurso`) VALUES
-(1, 'Matematicas'),
-(2, 'Sociales'),
-(3, 'Informatica');
+(2, 'Matematicas'),
+(3, 'Naturales'),
+(4, 'Sociales'),
+(5, 'Ingles'),
+(6, 'Informatica'),
+(7, 'Religion'),
+(8, 'Etica'),
+(9, 'Fisica'),
+(10, 'emprendimiento');
 
 --
 -- Índices para tablas volcadas
@@ -87,13 +95,13 @@ ALTER TABLE `cursos`
 -- AUTO_INCREMENT de la tabla `alumnos`
 --
 ALTER TABLE `alumnos`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de la tabla `cursos`
 --
 ALTER TABLE `cursos`
-  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `codigo` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

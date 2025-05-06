@@ -56,6 +56,16 @@
     <a href="actividades/tutorial2p28.php">Ejercicio taller 2 punto 28</a>
     <br>
     <a href="actividades/tutorial2p29.php">Ejercicio taller 2 punto 29</a>
+    <br>
+    <a href="actividades/tutorial2p30.php">Ejercicio taller 2 punto 30</a>
+    <br>
+    <a href="actividades/tutorial2p31.php">Ejercicio taller 2 punto 31</a>
+    <br>
+    <a href="actividades/tutorial2p32.php">Ejercicio taller 2 punto 32</a>
+    <br>
+    <a href="actividades/tutorial2p33.php">Ejercicio taller 2 punto 33</a>
+    <br>
+    <a href="actividades/tutorial3p34.php">Ejercicio taller 3 punto 34</a>
     
 </body>
 </html>
