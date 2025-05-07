@@ -1,20 +1,11 @@
-<?php 
-$ancho=100;
-$alto=30;
-$imagen=imagecreate($ancho,$alto);
-$amarillo=imagecolorallocate($imagen,255,255,0);
-imagefill($imagen,0,0,$amarillo);
-$rojo=imagecolorallocate($imagen,255,0,0);
-$valoraleatorio;rand(100000,999999);
-imagestring($imagen,5,25,5,$valoraleatorio,$rojo);
-for($c=0;$c<=5;$c++){
-    $x1=rand(0,$ancho);
-    $y1=rand(0,$alto);
-    $x2=rand(0,$ancho);
-    $y2=rand(0,$alto);
-    imageline($imagen,$x1,$y1,$x2,$y2,$rojo);
-}
-header("content-type:image/jpeg");
-imagejpeg($imagen);
+<?php
+$imagen = imagecreate(200, 100);
+$colorFondo = imagecolorallocate($imagen, 220, 220, 220); // Gris claro
+$colorBoton = imagecolorallocate($imagen, 0, 102, 204); // Azul
+$colorTexto = imagecolorallocate($imagen, 255, 255, 255); // Blanco
+imagefilledrectangle($imagen, 60, 30, 170, 70, $colorBoton);
+imagestring($imagen, 5, 75, 45, "Click Aca", $colorTexto);
+header("Content-Type: image/png");
+imagepng($imagen);
 imagedestroy($imagen);
 ?>
