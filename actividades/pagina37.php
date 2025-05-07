@@ -19,10 +19,10 @@
     if ($reg=mysqli_fetch_array($registros)){
         $_SESSION['correo']=$reg['mail'];
         $_SESSION['nombre']=$reg['nombre'];
+       echo "<a href='pagina37_2.php'>Ir a la tercera pagina donde se recuperan los datos</a>";
     }else{
         echo "Sesion no creada";
     }
-
-    echo $_SESSION['nombre'];    ?>
+        ?>
 </body>
 </html>
