@@ -76,6 +76,20 @@
     <a href="actividades/tutorial3p39.php">Ejercicio taller 3 punto 39</a>
     <br>
     <a href="actividades/tutorial3p40.php">Ejercicio taller 3 punto 40</a>
+    <br>
+    <a href="actividades/tutorial3p41.php">Ejercicio taller 3 punto 41</a>
+    <br>
+    <a href="actividades/tutorial3p42.php">Ejercicio taller 3 punto 42</a>
+    <br>
+    <a href="actividades/tutorial3p43.php">Ejercicio taller 3 punto 43</a>
+    <br>
+    <a href="actividades/tutorial3p44.php">Ejercicio taller 3 punto 44</a>
+    <br>
+    <a href="actividades/tutorial3p45.php">Ejercicio taller 3 punto 45</a>
+    <br>
+    <a href="actividades/tutorial3p46.php">Ejercicio taller 3 punto 46</a>
+    <br>
+    <a href="actividades/tutorial4p47.php">Ejercicio taller 4 punto 47</a>
     
 </body>
 </html>
